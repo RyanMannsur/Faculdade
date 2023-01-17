@@ -1,0 +1,13 @@
+module mux_41(I0,I1,sel,saida);
+
+	input I0[1:0],I1[1:0],sel[2:0];
+	output saida;
+	wire aux_saida[2:0];
+	
+	mux_21 bloco1(I0[0],I1[0],sel[0],aux_saida[0]);
+	mux_21 bloco2(I0[1],I1[1],sel[1],aux_saida[1]);
+	mux_21 bloco3(aux_saida[0],aux_saida[1],sel[2],aux_saida[2]);
+	
+	assign saida = aux_saida[2];
+	
+endmodule

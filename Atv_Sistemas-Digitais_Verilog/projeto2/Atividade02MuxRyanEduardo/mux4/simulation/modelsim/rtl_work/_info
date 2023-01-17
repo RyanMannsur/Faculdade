@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\ryane\OneDrive\Documentos\atividades\projeto2\mux4\simulation\modelsim
+vmux_21
+!i10b 1
+!s100 UMU9UiT]hQ?JzA;k^LHCV1
+I<80[CDZS8oG9=2mmVQYzo1
+V^3]1=kH^EUE0ETAWTKA_E2
+Z1 dC:\Users\ryane\OneDrive\Documentos\atividades\projeto2\mux4\simulation\modelsim
+w1604063773
+8C:/Users/ryane/OneDrive/Documentos/atividades/projeto2/mux4/mux_21.v
+FC:/Users/ryane/OneDrive/Documentos/atividades/projeto2/mux4/mux_21.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1604077144.933000
+!s107 C:/Users/ryane/OneDrive/Documentos/atividades/projeto2/mux4/mux_21.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto2/mux4|C:/Users/ryane/OneDrive/Documentos/atividades/projeto2/mux4/mux_21.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto2/mux4 -O0
+vmux_41
+IPkUkEnFJkaA8MO5<nKfzo2
+VfUadcKO?K497A<QLZjlh^3
+R1
+w1604070138
+8C:/Users/ryane/OneDrive/Documentos/atividades/projeto2/mux4/mux_41.v
+FC:/Users/ryane/OneDrive/Documentos/atividades/projeto2/mux4/mux_41.v
+L0 1
+R2
+r1
+31
+R3
+!i10b 1
+!s100 E]AHg:5AUCG;kh`2;Oi=c3
+!s85 0
+!s108 1604077144.346000
+!s107 C:/Users/ryane/OneDrive/Documentos/atividades/projeto2/mux4/mux_41.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto2/mux4|C:/Users/ryane/OneDrive/Documentos/atividades/projeto2/mux4/mux_41.v|
+!s101 -O0
+R4

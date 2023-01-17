@@ -1,0 +1,47 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do somador_4bits_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits {C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits/somador_4bits.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module somador_4bits
+# 
+# Top level modules:
+# 	somador_4bits
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits {C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits/somador_1bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module somador_1bit
+# 
+# Top level modules:
+# 	somador_1bit
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits {C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits/testbench.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps testbench 
+# Loading work.testbench
+# Loading work.somador_4bits
+# Loading work.somador_1bit
+# ** Warning: (vsim-3015) C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits/somador_4bits.v(8): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'Te'. The port definition is at: C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits/somador_1bit.v(1).
+# 
+#         Region: /testbench/dut/somador1
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all

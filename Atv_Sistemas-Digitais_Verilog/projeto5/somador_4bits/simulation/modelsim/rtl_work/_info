@@ -1,0 +1,65 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\ryane\OneDrive\Documentos\atividades\projeto5\somador_4bits\simulation\modelsim
+vsomador_1bit
+ImCl^Yn@Ph^2I4>fZ[BbC]2
+V]Yez5e[aZXLl3kkoeR1Y_3
+Z1 dC:\Users\ryane\OneDrive\Documentos\atividades\projeto5\somador_4bits\simulation\modelsim
+w1605904672
+8C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits/somador_1bit.v
+FC:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits/somador_1bit.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits -O0
+!i10b 1
+!s100 :mYiaC1Fc1nLUG99L3UaP0
+!s85 0
+!s108 1606001925.550000
+!s107 C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits/somador_1bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits|C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits/somador_1bit.v|
+!s101 -O0
+vsomador_4bits
+IMe]3QnhSCSaAkcJe_PE^Y2
+VWieLS0A<bl6F^6_Y_ZK=i3
+R1
+w1605998172
+8C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits/somador_4bits.v
+FC:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits/somador_4bits.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 26ZD>0koC33M`2OY?gCPG1
+!s85 0
+!s108 1606001925.339000
+!s107 C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits/somador_4bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits|C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits/somador_4bits.v|
+!s101 -O0
+vtestbench
+!i10b 1
+!s100 IZG?QPAHa;Ljno[TDUMGQ0
+II187gR2BHXdFgAbcHIlfi0
+VhGfW:390DM[oDMzegDH9`2
+R1
+w1606000892
+8C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits/testbench.v
+FC:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits/testbench.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1606001925.815000
+!s107 C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits|C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_4bits/testbench.v|
+!s101 -O0
+R3
+R4

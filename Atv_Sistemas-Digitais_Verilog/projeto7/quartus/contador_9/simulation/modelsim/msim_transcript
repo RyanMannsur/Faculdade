@@ -1,0 +1,30 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do contador_9_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto7/quartus/contador_9 {C:/Users/ryane/OneDrive/Documentos/atividades/projeto7/quartus/contador_9/contador_9.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module contador_9
+# 
+# Top level modules:
+# 	contador_9
+# 
+vsim work.contador_9
+# vsim work.contador_9 
+# Loading work.contador_9
+wave create -driver freeze -pattern clock -initialvalue 0 -period 50ps -dutycycle 50 -starttime 0ps -endtime 1500ps sim:/contador_9/clock
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 554ps -dutycycle 95 -starttime 0ps -endtime 1500ps sim:/contador_9/reset
+wave modify -driver freeze -pattern clock -initialvalue 1 -period 554ps -dutycycle 93 -starttime 0ps -endtime 1500ps Edit:/contador_9/reset
+wave modify -driver freeze -pattern clock -initialvalue St1 -period 554ps -dutycycle 97 -starttime 0ps -endtime 1500ps Edit:/contador_9/reset
+wave create -driver freeze -pattern clock -initialvalue 1 -period 603ps -dutycycle 97 -starttime 0ps -endtime 1500ps sim:/contador_9/preset
+add wave -position end  sim:/contador_9/Q
+run -all
+wave editwrite -file C:/Users/ryane/OneDrive/Documentos/atividades/wave.do

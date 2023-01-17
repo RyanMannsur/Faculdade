@@ -1,0 +1,10 @@
+module somador_4bits(numero1, numero2, resultado);
+	
+	input [3:0]numero1, [3:0]numero2;
+	output reg [4:0]resultado;
+	
+	wire Ts;
+	
+	resultado[0] = somador_1bit(numero1[0], numero2[0], 0, resultado[0], Ts);
+
+endmodule

@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\ryane\OneDrive\Documentos\atividades\projeto6_registrador\quartus\block\simulation\modelsim
+vregsitrador_4bit_block
+Id903IASR^7IO?Z8M==`Uz2
+V;k6jB?_FSKgUh@=>o4df`3
+Z1 dC:\Users\ryane\OneDrive\Documentos\atividades\projeto6_registrador\quartus\block\simulation\modelsim
+w1606594574
+8C:/Users/ryane/OneDrive/Documentos/atividades/projeto6_registrador/quartus/block/regsitrador_4bit_block.v
+FC:/Users/ryane/OneDrive/Documentos/atividades/projeto6_registrador/quartus/block/regsitrador_4bit_block.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 0Qi[<L7oTAXE3e<B:^c?A2
+!s85 0
+!s108 1606601496.651000
+!s107 C:/Users/ryane/OneDrive/Documentos/atividades/projeto6_registrador/quartus/block/regsitrador_4bit_block.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto6_registrador/quartus/block|C:/Users/ryane/OneDrive/Documentos/atividades/projeto6_registrador/quartus/block/regsitrador_4bit_block.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto6_registrador/quartus/block -O0
+vtestbench
+!i10b 1
+!s100 >9zzC8YGZ4QTaN<ia80Nm1
+IDMF:`;2U0P>HS_aMDG^gP3
+VhGfW:390DM[oDMzegDH9`2
+R1
+w1606601438
+8C:/Users/ryane/OneDrive/Documentos/atividades/projeto6_registrador/quartus/block/testbench.v
+FC:/Users/ryane/OneDrive/Documentos/atividades/projeto6_registrador/quartus/block/testbench.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1606601496.993000
+!s107 C:/Users/ryane/OneDrive/Documentos/atividades/projeto6_registrador/quartus/block/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto6_registrador/quartus/block|C:/Users/ryane/OneDrive/Documentos/atividades/projeto6_registrador/quartus/block/testbench.v|
+!s101 -O0
+R3
+R4

@@ -1,0 +1,11 @@
+module counter(address, pc_inc, pc_in, buswires, r7);
+	input pc_inc, pc_in;
+	input [15:0] buswires;
+	input [15:0] address;
+	output [15:0] r7;
+	
+	always(*) begin
+		if(pc_inc)
+			r7 = address+1;
+		if(pc_in)
+			r7 = buswires;

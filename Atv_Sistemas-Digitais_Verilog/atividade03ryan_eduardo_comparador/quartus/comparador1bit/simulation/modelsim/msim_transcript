@@ -1,0 +1,34 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do comparador1bit_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/atividades/atividade03ryan_eduardo_comparador/quartus/comparador1bit {C:/Users/ryane/OneDrive/Documentos/atividades/atividade03ryan_eduardo_comparador/quartus/comparador1bit/comparador1bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comparador1bit
+# 
+# Top level modules:
+# 	comparador1bit
+# 
+vsim work.comparador1bit
+# vsim work.comparador1bit 
+# Loading work.comparador1bit
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 1000ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/comparador1bit/enable
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 780ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/comparador1bit/A
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 550ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/comparador1bit/B
+wave modify -driver freeze -pattern clock -initialvalue HiZ -period 1000ps -dutycycle 50 -starttime 0ps -endtime 1000ps Edit:/comparador1bit/enable
+wave modify -driver freeze -pattern clock -initialvalue HiZ -period 730ps -dutycycle 50 -starttime 0ps -endtime 1000ps Edit:/comparador1bit/A
+wave modify -driver freeze -pattern clock -initialvalue HiZ -period 400ps -dutycycle 50 -starttime 0ps -endtime 1000ps Edit:/comparador1bit/B
+add wave -position end  sim:/comparador1bit/igual
+add wave -position end  sim:/comparador1bit/maior
+add wave -position end  sim:/comparador1bit/menor
+run -all
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/ryane/OneDrive/Documentos/atividades/atividade03ryan_eduardo_comparador/quartus/comparador1bit/simulation/modelsim/comparador1bit.do
+wave editwrite -file C:/Users/ryane/OneDrive/Documentos/atividades/atividade03ryan_eduardo_comparador/quartus/comparador1bit/simulation/modelsim/comparador1bit.do -append

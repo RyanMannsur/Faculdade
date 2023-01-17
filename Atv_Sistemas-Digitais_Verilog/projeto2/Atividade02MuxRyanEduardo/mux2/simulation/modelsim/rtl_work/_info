@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\ryane\OneDrive\Documentos\atividades\projeto2\mux2\simulation\modelsim
+vmux_21
+!i10b 1
+!s100 c2zJmT:zXoXz>8@?A_]3S1
+IcokfFME]74je5PeiJZb@B1
+V^3]1=kH^EUE0ETAWTKA_E2
+Z1 dC:\Users\ryane\OneDrive\Documentos\atividades\projeto2\mux2\simulation\modelsim
+w1604063773
+8C:/Users/ryane/OneDrive/Documentos/atividades/projeto2/mux2/mux_21.v
+FC:/Users/ryane/OneDrive/Documentos/atividades/projeto2/mux2/mux_21.v
+L0 1
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1604063979.856000
+!s107 C:/Users/ryane/OneDrive/Documentos/atividades/projeto2/mux2/mux_21.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto2/mux2|C:/Users/ryane/OneDrive/Documentos/atividades/projeto2/mux2/mux_21.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto2/mux2 -O0

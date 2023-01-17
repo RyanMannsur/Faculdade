@@ -1,0 +1,32 @@
+module testbench;
+
+	reg in,reset,clock;
+	wire Q3,Q2,Q1,Q0;
+	
+	registrador_4bit dut(Q0,Q1,Q2,Q3,in,reset,clock);
+	
+	initial
+	begin
+		reset=1'b0;	clock=1'b0; in=1'b0;	#20
+		reset=1'b1;	clock=1'b1; in=1'b0;	#20
+		reset=1'b0;	clock=1'b0; in=1'b1;	#20
+		reset=1'b0;	clock=1'b1; in=1'b1;	#20
+		reset=1'b0;	clock=1'b0; in=1'b0;	#20
+		reset=1'b0;	clock=1'b1; in=1'b0;	#20
+		reset=1'b0;	clock=1'b0; in=1'b1;	#20
+		reset=1'b0;	clock=1'b1; in=1'b1;	#20
+		reset=1'b0;	clock=1'b0; in=1'b0;	#20
+		reset=1'b0;	clock=1'b1; in=1'b0;	#20
+		
+		reset=1'b0;	clock=1'b0; in=1'b0;	#20
+		reset=1'b1;	clock=1'b1; in=1'b0;	#20
+		reset=1'b0;	clock=1'b0; in=1'b1;	#20
+		reset=1'b0;	clock=1'b1; in=1'b1;	#20
+		reset=1'b0;	clock=1'b0; in=1'b0;	#20
+		reset=1'b0;	clock=1'b1; in=1'b0;	#20
+		reset=1'b0;	clock=1'b0; in=1'b1;	#20
+		reset=1'b0;	clock=1'b1; in=1'b1;	#20
+		reset=1'b0;	clock=1'b0; in=1'b0;	#20
+		reset=1'b0;	clock=1'b1; in=1'b0;	#20;
+	end
+endmodule

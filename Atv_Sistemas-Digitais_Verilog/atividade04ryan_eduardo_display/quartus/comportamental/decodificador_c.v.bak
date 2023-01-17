@@ -1,0 +1,23 @@
+module decodificador_c(A,B,C,D,a,b,c,d,e,f,g);
+
+	input A,B,C,D;
+	output reg a,b,c,d,e,f,g;
+	
+	always@(*)
+		begin 
+			case({A,B,C,D})
+				4'b0000: a = 1; b = 1; c = 1; d = 1; e = 1; f = 1; g = 0;
+				4'b0001: a = 0; b = 1; c = 1; d = 0; e = 0; f = 0; g = 0;
+				4'b0010: a = 1; b = 1; c = 0; d = 1; e = 1; f = 0; g = 1;
+				4'b0011: a = 1; b = 1; c = 1; d = 1; e = 0; f = 0; g = 1;
+				4'b0100: a = 0; b = 1; c = 1; d = 0; e = 0; f = 1; g = 1;
+				4'b0101: a = 1; b = 0; c = 1; d = 1; e = 0; f = 1; g = 1;
+				4'b0110: a = 1; b = 0; c = 1; d = 1; e = 1; f = 1; g = 1;
+				4'b0111: a = 1; b = 1; c = 1; d = 0; e = 0; f = 0; g = 0;
+				4'b1000: a = 1; b = 1; c = 1; d = 1; e = 1; f = 1; g = 1;
+				4'b1001: a = 1; b = 1; c = 1; d = 1; e = 0; f = 1; g = 0;
+				
+				default: a = 0; b = 0; c = 0; d = 0; e = 0; f = 0; g = 0;
+			endcase
+		end
+endmodule

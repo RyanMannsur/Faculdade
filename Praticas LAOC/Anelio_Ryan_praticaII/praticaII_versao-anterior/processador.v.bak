@@ -1,0 +1,18 @@
+module processador(din, clock, data, done)
+	input [15:0] din;
+	input clock;
+	output [15:0] data;
+	output done;
+	
+	wire [15:0]reg_ir, reg_rx, reg_ry;
+	wire [3:0]select;
+	reg run, resetn;
+	wire done, ir_in, r0_in, r1_in, r2_in, r3_in, r4_in, r5_in, r6_in,
+			r7_in, pc_inc, pc_in, a_in, g_in, addr_in, dout_in, wren;
+	wire [1:0]ula;
+	
+	initial begin
+		ir_in <= 1'b1;
+	end
+	
+	ir IR(din,ir_in, clock, reg_ir, reg_rx, reg_ry);

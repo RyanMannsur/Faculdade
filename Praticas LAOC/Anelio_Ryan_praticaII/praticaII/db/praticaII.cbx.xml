@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="praticaII">
+		<CBX_INST_ENTRY INSTANCE_NAME="|processador|ramlpm:MEM_DADOS|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_6vc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|processador|romlpm:MEM_INSTRUCAO|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_em91.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

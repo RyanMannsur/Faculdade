@@ -1,0 +1,58 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do praticaII_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/praticaII {C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/ramlpm.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ramlpm
+# 
+# Top level modules:
+# 	ramlpm
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/praticaII {C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/toplevel.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module toplevel
+# 
+# Top level modules:
+# 	toplevel
+# 
+vsim +altera -L altera_mf_ver -do praticaII_run_msim_rtl_verilog.do -l msim_transcript -gui work.toplevel
+# vsim +altera -L altera_mf_ver -do praticaII_run_msim_rtl_verilog.do -l msim_transcript -gui work.toplevel 
+# Loading work.toplevel
+# Loading work.ramlpm
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# do praticaII_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/praticaII {C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/ramlpm.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ramlpm
+# 
+# Top level modules:
+# 	ramlpm
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/praticaII {C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/toplevel.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module toplevel
+# 
+# Top level modules:
+# 	toplevel
+# 
+wave create -driver freeze -pattern counter -startvalue 00000 -endvalue 11111 -type Range -direction Up -period 50ps -step 1 -repeat forever -range 4 0 -starttime 0ps -endtime 1000ps sim:/toplevel/address
+wave create -driver freeze -pattern counter -startvalue 00000 -endvalue 11111 -type Range -direction Up -period 10ps -step 1 -repeat forever -range 4 0 -starttime 0ps -endtime 1000ps sim:/toplevel/address
+wave create -driver freeze -pattern clock -initialvalue 0 -period 5ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/toplevel/clock
+add wave -position end  sim:/toplevel/q
+run

@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\ryane\OneDrive\Documentos\atividades\projeto1\comportamental\simulation\modelsim
+vfarol
+!i10b 1
+!s100 V]o<_j?FSCm4B:4Hja3j[2
+IK^@0EXOH9Un]ik:Y8Lcgo1
+V[f_k_S1PI]=4TQj:gED]m2
+Z1 dC:\Users\ryane\OneDrive\Documentos\atividades\projeto1\comportamental\simulation\modelsim
+w1604008125
+8C:/Users/ryane/OneDrive/Documentos/atividades/projeto1/comportamental/farol.v
+FC:/Users/ryane/OneDrive/Documentos/atividades/projeto1/comportamental/farol.v
+L0 1
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1604009149.854000
+!s107 C:/Users/ryane/OneDrive/Documentos/atividades/projeto1/comportamental/farol.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto1/comportamental|C:/Users/ryane/OneDrive/Documentos/atividades/projeto1/comportamental/farol.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto1/comportamental -O0

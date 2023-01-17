@@ -1,0 +1,34 @@
+|mux_41
+I0 => I0.IN1
+I1 => I1.IN1
+I2 => I2.IN1
+I3 => I3.IN1
+selA => selA.IN2
+selB => selB.IN1
+saida <= mux_21:bloco3.port3
+
+
+|mux_41|mux_21:bloco1
+I0 => saida.IN0
+I1 => saida.IN0
+sel => saida.IN1
+sel => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux_41|mux_21:bloco2
+I0 => saida.IN0
+I1 => saida.IN0
+sel => saida.IN1
+sel => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux_41|mux_21:bloco3
+I0 => saida.IN0
+I1 => saida.IN0
+sel => saida.IN1
+sel => saida.IN1
+saida <= saida.DB_MAX_OUTPUT_PORT_TYPE
+
+

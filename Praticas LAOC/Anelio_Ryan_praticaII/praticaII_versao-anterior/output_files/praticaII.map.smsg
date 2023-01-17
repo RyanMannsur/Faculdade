@@ -1,0 +1,7 @@
+Warning (10268): Verilog HDL information at fsm.v(18): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at processador.v(3): object "r0" differs only in case from object "R0" in the same scope
+Info (10281): Verilog HDL Declaration information at processador.v(3): object "r1" differs only in case from object "R1" in the same scope
+Info (10281): Verilog HDL Declaration information at processador.v(3): object "r2" differs only in case from object "R2" in the same scope
+Info (10281): Verilog HDL Declaration information at processador.v(3): object "r3" differs only in case from object "R3" in the same scope
+Info (10281): Verilog HDL Declaration information at processador.v(9): object "r4" differs only in case from object "R4" in the same scope
+Info (10281): Verilog HDL Declaration information at processador.v(9): object "r5" differs only in case from object "R5" in the same scope

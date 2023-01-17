@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\ryane\OneDrive\Documentos\quartus\praticaII\simulation\modelsim
+vramlpm
+IVWQejYYFjgD`RQmjE`ZWi3
+VR:=61PRUnAZWihg=S@JO<2
+Z1 dC:\Users\ryane\OneDrive\Documentos\quartus\praticaII\simulation\modelsim
+w1661462532
+8C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/ramlpm.v
+FC:/Users/ryane/OneDrive/Documentos/quartus/praticaII/ramlpm.v
+L0 39
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 zU1EO^8oeW5j:mK@LWALd3
+!s85 0
+!s108 1662246503.865000
+!s107 C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/ramlpm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/quartus/praticaII|C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/ramlpm.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/praticaII -O0
+vtoplevel
+!i10b 1
+!s100 b8Qme1d3N<lMj5NQe0GJ80
+I<4Sn6EmVJA[FWZ`Xan7hF0
+VODMfe1CmATF4NkWYTRJ9K2
+R1
+w1662246384
+8C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/toplevel.v
+FC:/Users/ryane/OneDrive/Documentos/quartus/praticaII/toplevel.v
+L0 43
+R2
+r1
+!s85 0
+31
+!s108 1662246504.078000
+!s107 C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/toplevel.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/quartus/praticaII|C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/toplevel.v|
+!s101 -O0
+R3
+R4

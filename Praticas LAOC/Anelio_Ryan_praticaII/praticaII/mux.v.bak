@@ -1,0 +1,24 @@
+module mux(r0,r1,r2,r3,r4,r5,r6,r7, ir,g, select, buswires);
+
+	input [3:0] select;
+	input [15:0] r0,r1,r2,r3,r4,r5,r6,r7,,ir,g;
+	output [15:0] buswires
+	
+	always(*)begin
+		case(select)
+			4'0000: buswires = ir;
+			4'0001: buswires = r0;
+			4'0010: buswires = r1;
+			4'0011: buswires = r2;
+			4'0100: buswires = r3;
+			4'0101: buswires = r4;
+			4'0110: buswires = r5;
+			4'0111: buswires = r6;
+			4'1000: buswires = r7;
+			4'1001: buswires = g;
+		endcase
+	end
+
+endmodule
+
+	

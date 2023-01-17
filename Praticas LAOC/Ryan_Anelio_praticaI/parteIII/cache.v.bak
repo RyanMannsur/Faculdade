@@ -1,0 +1,110 @@
+module cache(clock, address, wren, hit, valido, LRU, data, q, mem);
+
+	input clock, wren; 
+	output reg hit, valido, LRU, dirty;
+	input [4:0]address;
+	input [2:0] data;
+	output reg [2:0] q, mem; //q é a saida e mem é o que grava na memoria que usarei futuramente.
+
+	/*Memoria
+		[2:0] q.
+		[5:3] tag.
+		  6   dirty
+		  7   LRU
+		  8   Valido
+	*/	
+	reg [8:0] memoria [3:0]; //Tamanho 8, com 8 bits cada.
+	
+	integer index;
+	
+	always @(posedge clock) begin
+		index = [1:0]address << 1; //deslocando para pegar de 2 em 2
+		
+		if(wren) begin
+			if(memoria[index][8] && (address[4:2] == memoria[index][5:3])) begin //hit na escrita 1ª via
+				hit <= 1'b1;
+				
+				//LRU
+				memoria[index][6] <= 1'b1;
+				LRU <= 1'b1;
+				memoria[index+1][6] <= 1'b0;
+				
+				//valido
+				memoria[index][8] <= 1'b1;
+				valido <= 1'b1;
+				
+				//dirty
+				if(memoria[index][6]) //se o dirty ja for 1
+					mem <= memoria[index][2:0]; //esccreve na memoria principal
+				memoria[index][6] <= 1'b1;
+				dirty <= 1'b1;
+				
+				memoria[index][2:0] <= data; //escreve na L1
+			end
+			
+			//hit na escrita 2ª via
+			else if(if(memoria[index+1][8] && (address[4:2] == memoria[index+1][5:3])) begin
+				hit <= 1'b1;
+				
+				//LRU
+				memoria[index+1][6] <= 1'b1;
+				LRU <= 1'b1;
+				memoria[index][6] <= 1'b0;
+				
+				//valido
+				memoria[index+1][8] <= 1'b1;
+				valido <= 1'b1;
+				
+				//dirty
+				if(memoria[index+1][6]) //se o dirty ja for 1
+					mem <= memoria[index+1][2:0]; //escreve na memoria principal
+				memoria[index+1][6] <= 1'b1;
+				dirty <= 1'b1; 
+				
+				memoria[index+1][2:0] <= data; //escreve na L1
+			end
+			
+			else if(memoria[index][8]) begin // se a tag não bater
+						if(~(memoria[index][6])) begin
+							hit <= 1'b0;
+				
+							//LRU
+							memoria[index][6] <= 1'b1;
+							LRU <= 1'b1;
+							memoria[index+1][6] <= 1'b0;
+							
+							//valido
+							memoria[index][8] <= 1'b1;
+							valido <= 1'b1;
+							
+							//dirty
+							if(memoria[index][6]) //se o dirty ja for 1
+								mem <= memoria[index][2:0]; //escreve na memoria principal
+							memoria[index][6] <= 1'b1;
+							dirty <= 1'b1; //escreve na L1
+							
+							memoria[index][2:0] <= data;
+						end
+						else begin
+							hit <= 1'b0;
+				
+							//LRU
+							memoria[index+1][6] <= 1'b1;
+							LRU <= 1'b1;
+							memoria[index][6] <= 1'b0;
+							
+							//valido
+							memoria[index+1][8] <= 1'b1;
+							valido <= 1'b1;
+							
+							//dirty
+							if(memoria[index+1][6]) // se o dirty ja for 1
+								mem <= memoria[index+1][2:0]; //escreve na memoria principal
+							memoria[index+1][6] <= 1'b1;
+							dirty <= 1'b1;
+							
+							memoria[index+1][2:0] <= data; //escreve na L1
+						end		
+		end
+		
+endmodule

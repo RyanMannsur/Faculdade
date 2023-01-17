@@ -1,0 +1,27 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do mux_21_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto2/mux2 {C:/Users/ryane/OneDrive/Documentos/atividades/projeto2/mux2/mux_21.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux_21
+# 
+# Top level modules:
+# 	mux_21
+# 
+vsim work.mux_21
+# vsim work.mux_21 
+# Loading work.mux_21
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 1000ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/mux_21/sel
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 650ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/mux_21/I0
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 400ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/mux_21/I1
+add wave -position end  sim:/mux_21/saida
+run -all

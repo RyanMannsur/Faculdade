@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/ryane/OneDrive/Documentos/atividades/projeto1/fluxo_de_dados/farol.v
+source_file = 1, C:/Users/ryane/OneDrive/Documentos/atividades/projeto1/fluxo_de_dados/db/farol.cbx.xml
+design_name = farol
+instance = comp, P_aI, P, farol, 1
+instance = comp, F_aI, F, farol, 1
+instance = comp, C_aI, C, farol, 1
+instance = comp, S_a0, S~0, farol, 1
+instance = comp, S_aI, S, farol, 1

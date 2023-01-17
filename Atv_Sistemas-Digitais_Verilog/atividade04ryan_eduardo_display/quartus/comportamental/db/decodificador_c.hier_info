@@ -1,0 +1,15 @@
+|decodificador_c
+A => Decoder0.IN0
+B => Decoder0.IN1
+C => Decoder0.IN2
+D => Decoder0.IN3
+S[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+S[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+S[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+S[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+S[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+S[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+S[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+S[7] <= <GND>
+
+

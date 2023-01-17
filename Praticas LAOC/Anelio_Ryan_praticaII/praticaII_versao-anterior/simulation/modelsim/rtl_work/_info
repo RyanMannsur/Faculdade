@@ -1,0 +1,285 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\ryane\OneDrive\Documentos\quartus\teste\praticaII\simulation\modelsim
+va
+IZ@HaX<i28E=djVQL0LUB<0
+V7R6mf[c?Ek8kFllzRmO=93
+Z1 dC:\Users\ryane\OneDrive\Documentos\quartus\teste\praticaII\simulation\modelsim
+Z2 w1665761285
+8C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/a.v
+FC:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/a.v
+L0 1
+Z3 OV;L;10.1d;51
+r1
+31
+Z4 o-vlog01compat -work work -O0
+Z5 !s92 -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII -O0
+!i10b 1
+!s100 ZiFH`FESiezPWc;IA5ba<1
+!s85 0
+!s108 1665801389.954000
+!s107 C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/a.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII|C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/a.v|
+!s101 -O0
+vaddr
+IK`:RXTYU?>VjDNXTd1;4D3
+VKJ8FcNRg_6VjV:D2NAzC:3
+R1
+w1665761185
+8C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/addr.v
+FC:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/addr.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 U;GR>WmXh?@<=0WI`_9HC0
+!s85 0
+!s108 1665801390.758000
+!s107 C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/addr.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII|C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/addr.v|
+!s101 -O0
+valu
+IYhMak`F5;cI5]^W1HPj^V2
+V1O@>DTX_RHXPmiF7L1I@L1
+R1
+w1665779628
+8C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/alu.v
+FC:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/alu.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 G]^olZmKMY8S`Vb;1NL^11
+!s85 0
+!s108 1665801390.217000
+!s107 C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII|C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/alu.v|
+!s101 -O0
+vcounter
+I6M6nUC_6`nVk4?5Ye28[N0
+V<;XGfJSj1f:zlZRJi_men2
+R1
+w1665775304
+8C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/counter.v
+FC:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/counter.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 ;>H:U3^757c=8HF:cOHG=0
+!s85 0
+!s108 1665801391.142000
+!s107 C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII|C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/counter.v|
+!s101 -O0
+vdout
+I3J48:e[a[Q:6A8;<Q_4ga3
+VMkK4cJjDN9_WD@N8:E7cN2
+R1
+R2
+8C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/dout.v
+FC:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/dout.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 c;>VkZ6L8KIjL@:KZIL]U1
+!s85 0
+!s108 1665801390.972000
+!s107 C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/dout.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII|C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/dout.v|
+!s101 -O0
+vfsm
+ILWXTJS8A8AfIDcYho=Lg10
+Vl>QX>ngMI=8=6U]P8cVQG0
+R1
+w1665778482
+8C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/fsm.v
+FC:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/fsm.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 7AgHXSbkh6`H7[Cz;PkSD3
+!s85 0
+!s108 1665801388.501000
+!s107 C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/fsm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII|C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/fsm.v|
+!s101 -O0
+vg
+IM5l9Q?@67F8dKzU8mzRT:2
+VPNZEnV]zj1QW=k60bZCg:2
+R1
+Z6 w1665761251
+8C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/g.v
+FC:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/g.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 4jBOM>SL@1:Y?NLmfN[CY0
+!s85 0
+!s108 1665801390.563000
+!s107 C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/g.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII|C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/g.v|
+!s101 -O0
+vir
+IV^AEelX;BcHnKb93PhWo32
+V9=D^>I:i:5;cGX2aYCIA51
+R1
+R6
+8C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/ir.v
+FC:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/ir.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 bIkafYlh:[c_bdg95[Goe2
+!s85 0
+!s108 1665801389.437000
+!s107 C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/ir.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII|C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/ir.v|
+!s101 -O0
+vmux
+I5hJ9L52fU5C=8HDWFiWc^3
+VLPcn13>CHdf]mK3OLf5J^0
+R1
+w1665778034
+8C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/mux.v
+FC:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/mux.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 m[4J99`NL:19TM]nZ1cc=1
+!s85 0
+!s108 1665801389.702000
+!s107 C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/mux.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII|C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/mux.v|
+!s101 -O0
+vprocessador
+I8[IlL`<zg]V6lNE9EIzNc3
+V2PLo_YDO=Uli=g7VWj42Q3
+R1
+w1665776115
+8C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/processador.v
+FC:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/processador.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 Ff=A^4;j55_0X<Paea[Pe3
+!s85 0
+!s108 1665801391.548000
+!s107 C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/processador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII|C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/processador.v|
+!s101 -O0
+vramlpm
+IkX[MQg:OCYiWW@=C4>GJ_2
+VYa^U[368cklV<=lK_XTk_1
+R1
+w1665663274
+8C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/ramlpm.v
+FC:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/ramlpm.v
+L0 39
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 i6knj=RZBmYdfCT4VD83g3
+!s85 0
+!s108 1665801389.182000
+!s107 C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/ramlpm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII|C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/ramlpm.v|
+!s101 -O0
+vregistrador
+I>F3ODeRWAOJ=OY8EARM<n3
+VXK6McX`;aE4RD2c[j<DHL2
+R1
+w1665698337
+8C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/registrador.v
+FC:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/registrador.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 OKkN1FeT;@bDBV2U:<jH73
+!s85 0
+!s108 1665801391.368000
+!s107 C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/registrador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII|C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/registrador.v|
+!s101 -O0
+vromlpm
+II<zO^?1g1?8Hcm3P_d=XB0
+VdS8?l7IfzB=iY_@3AM>240
+R1
+w1665598821
+8C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/romlpm.v
+FC:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/romlpm.v
+L0 39
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 dAb^M?63Uc=>78[XNBE_;3
+!s85 0
+!s108 1665801388.930000
+!s107 C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/romlpm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII|C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/romlpm.v|
+!s101 -O0
+vtest_bench
+!i10b 1
+!s100 [iAc:zN0J7B4WN`?mIEZk3
+I3MMILm<^;=DL]Hzmf3m3M2
+VEJNK5ZO7TWUP1egUA9^TR1
+R1
+w1665777380
+8C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/test_bench.v
+FC:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/test_bench.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1665801391.836000
+!s107 C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/test_bench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII|C:/Users/ryane/OneDrive/Documentos/quartus/teste/praticaII/test_bench.v|
+!s101 -O0
+R4
+R5

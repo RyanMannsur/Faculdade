@@ -1,0 +1,72 @@
+|somador_4bits
+numero1[0] => numero1[0].IN1
+numero1[1] => numero1[1].IN1
+numero1[2] => numero1[2].IN1
+numero1[3] => numero1[3].IN1
+numero2[0] => numero2[0].IN1
+numero2[1] => numero2[1].IN1
+numero2[2] => numero2[2].IN1
+numero2[3] => numero2[3].IN1
+resultado[0] <= somador_1bit:somador1.port3
+resultado[1] <= somador_1bit:somador2.port3
+resultado[2] <= somador_1bit:somador3.port3
+resultado[3] <= somador_1bit:somador4.port3
+resultado[4] <= somador_1bit:somador4.port4
+
+
+|somador_4bits|somador_1bit:somador1
+A => S.IN0
+A => Ts.IN0
+A => Ts.IN0
+B => S.IN1
+B => Ts.IN1
+B => Ts.IN0
+Te => S.IN1
+Te => Ts.IN1
+Te => Ts.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Ts <= Ts.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_4bits|somador_1bit:somador2
+A => S.IN0
+A => Ts.IN0
+A => Ts.IN0
+B => S.IN1
+B => Ts.IN1
+B => Ts.IN0
+Te => S.IN1
+Te => Ts.IN1
+Te => Ts.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Ts <= Ts.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_4bits|somador_1bit:somador3
+A => S.IN0
+A => Ts.IN0
+A => Ts.IN0
+B => S.IN1
+B => Ts.IN1
+B => Ts.IN0
+Te => S.IN1
+Te => Ts.IN1
+Te => Ts.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Ts <= Ts.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_4bits|somador_1bit:somador4
+A => S.IN0
+A => Ts.IN0
+A => Ts.IN0
+B => S.IN1
+B => Ts.IN1
+B => Ts.IN0
+Te => S.IN1
+Te => Ts.IN1
+Te => Ts.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Ts <= Ts.DB_MAX_OUTPUT_PORT_TYPE
+
+

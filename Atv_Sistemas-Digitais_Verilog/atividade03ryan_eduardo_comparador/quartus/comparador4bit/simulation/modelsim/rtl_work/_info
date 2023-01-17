@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\ryane\OneDrive\Documentos\atividades\atividade03ryan_eduardo_comparador\quartus\comparador4bit\simulation\modelsim
+vcomparador1bit
+!i10b 1
+!s100 =dI[R;8_C5fo4Wm5a45`12
+I9<MgmD`Nmz4U6>ze68Ke=0
+VY4eV^UbaaZoD]KnQz?`?:2
+Z1 dC:\Users\ryane\OneDrive\Documentos\atividades\atividade03ryan_eduardo_comparador\quartus\comparador4bit\simulation\modelsim
+w1604774493
+8C:/Users/ryane/OneDrive/Documentos/atividades/atividade03ryan_eduardo_comparador/quartus/comparador4bit/comparador1bit.v
+FC:/Users/ryane/OneDrive/Documentos/atividades/atividade03ryan_eduardo_comparador/quartus/comparador4bit/comparador1bit.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1604794474.052000
+!s107 C:/Users/ryane/OneDrive/Documentos/atividades/atividade03ryan_eduardo_comparador/quartus/comparador4bit/comparador1bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/atividades/atividade03ryan_eduardo_comparador/quartus/comparador4bit|C:/Users/ryane/OneDrive/Documentos/atividades/atividade03ryan_eduardo_comparador/quartus/comparador4bit/comparador1bit.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/atividades/atividade03ryan_eduardo_comparador/quartus/comparador4bit -O0
+vcomparador4bit
+I?S]1;8Y=FXYGRP?T=`FEQ3
+Vk2BSG;Wd2C8<_3[cKig=R1
+R1
+w1604793646
+8C:/Users/ryane/OneDrive/Documentos/atividades/atividade03ryan_eduardo_comparador/quartus/comparador4bit/comparador4bit.v
+FC:/Users/ryane/OneDrive/Documentos/atividades/atividade03ryan_eduardo_comparador/quartus/comparador4bit/comparador4bit.v
+L0 1
+R2
+r1
+31
+R3
+!i10b 1
+!s100 h;CWgVY;;h5aE?W8@oCAk1
+!s85 0
+!s108 1604794473.852000
+!s107 C:/Users/ryane/OneDrive/Documentos/atividades/atividade03ryan_eduardo_comparador/quartus/comparador4bit/comparador4bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/atividades/atividade03ryan_eduardo_comparador/quartus/comparador4bit|C:/Users/ryane/OneDrive/Documentos/atividades/atividade03ryan_eduardo_comparador/quartus/comparador4bit/comparador4bit.v|
+!s101 -O0
+R4

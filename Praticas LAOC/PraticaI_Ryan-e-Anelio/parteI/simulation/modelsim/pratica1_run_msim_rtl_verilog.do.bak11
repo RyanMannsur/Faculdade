@@ -1,0 +1,11 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/pratica1 {C:/Users/ryane/OneDrive/Documentos/quartus/pratica1/ramlpm.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/pratica1 {C:/Users/ryane/OneDrive/Documentos/quartus/pratica1/toplevel.v}
+vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/pratica1 {C:/Users/ryane/OneDrive/Documentos/quartus/pratica1/decodificador_c.v}
+

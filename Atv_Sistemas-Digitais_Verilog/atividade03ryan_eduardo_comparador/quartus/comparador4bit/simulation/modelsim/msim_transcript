@@ -1,0 +1,40 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do comparador4bit_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/atividades/atividade03ryan_eduardo_comparador/quartus/comparador4bit {C:/Users/ryane/OneDrive/Documentos/atividades/atividade03ryan_eduardo_comparador/quartus/comparador4bit/comparador4bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comparador4bit
+# 
+# Top level modules:
+# 	comparador4bit
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/atividades/atividade03ryan_eduardo_comparador/quartus/comparador4bit {C:/Users/ryane/OneDrive/Documentos/atividades/atividade03ryan_eduardo_comparador/quartus/comparador4bit/comparador1bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module comparador1bit
+# 
+# Top level modules:
+# 	comparador1bit
+# 
+vsim work.comparador4bit
+# vsim work.comparador4bit 
+# Loading work.comparador4bit
+# Loading work.comparador1bit
+# ** Warning: (vsim-3015) C:/Users/ryane/OneDrive/Documentos/atividades/atividade03ryan_eduardo_comparador/quartus/comparador4bit/comparador4bit.v(10): [PCDPC] - Port size (1 or 1) does not match connection size (32) for port 'enable'. The port definition is at: C:/Users/ryane/OneDrive/Documentos/atividades/atividade03ryan_eduardo_comparador/quartus/comparador4bit/comparador1bit.v(1).
+# 
+#         Region: /comparador4bit/bloco1
+wave create -driver freeze -pattern constant -value 0010 -range 3 0 -starttime 0ps -endtime 1000ps sim:/comparador4bit/A
+wave create -driver freeze -pattern constant -value 0000 -range 3 0 -starttime 0ps -endtime 100ps sim:/comparador4bit/B
+wave create -driver freeze -pattern constant -value 0010 -range 3 0 -starttime 0ps -endtime 200ps sim:/comparador4bit/B2
+wave create -driver freeze -pattern constant -value 0100 -range 3 0 -starttime 0ps -endtime 300ps sim:/comparador4bit/B3
+add wave -position end  sim:/comparador4bit/igual
+add wave -position end  sim:/comparador4bit/maior
+add wave -position end  sim:/comparador4bit/menor
+run -all

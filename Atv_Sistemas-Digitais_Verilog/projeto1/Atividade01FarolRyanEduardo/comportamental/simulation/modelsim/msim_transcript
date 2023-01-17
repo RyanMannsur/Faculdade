@@ -1,0 +1,28 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do farol_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto1/comportamental {C:/Users/ryane/OneDrive/Documentos/atividades/projeto1/comportamental/farol.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module farol
+# 
+# Top level modules:
+# 	farol
+# 
+vsim work.farol
+# vsim work.farol 
+# Loading work.farol
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 1000ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/farol/F
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 650ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/farol/C
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 400ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/farol/P
+add wave -position end  sim:/farol/S
+run -all
+add wave -position 1 -format Logic -height 17 -radix binary -editable 2 Edit:/farol/P

@@ -1,0 +1,139 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do praticaII_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/praticaII {C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/fsm.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module fsm
+# ** Warning: C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/fsm.v(38): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# 
+# Top level modules:
+# 	fsm
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/praticaII {C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/romlpm.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module romlpm
+# 
+# Top level modules:
+# 	romlpm
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/praticaII {C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/ramlpm.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ramlpm
+# 
+# Top level modules:
+# 	ramlpm
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/praticaII {C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/ir.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module ir
+# 
+# Top level modules:
+# 	ir
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/praticaII {C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/mux.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux
+# 
+# Top level modules:
+# 	mux
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/praticaII {C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/a.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module a
+# 
+# Top level modules:
+# 	a
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/praticaII {C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/praticaII {C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/g.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module g
+# 
+# Top level modules:
+# 	g
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/praticaII {C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/addr.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module addr
+# 
+# Top level modules:
+# 	addr
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/praticaII {C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/dout.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module dout
+# 
+# Top level modules:
+# 	dout
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/praticaII {C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/counter.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/praticaII {C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/registrador.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module registrador
+# 
+# Top level modules:
+# 	registrador
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/praticaII {C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/processador.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module processador
+# 
+# Top level modules:
+# 	processador
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/praticaII {C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/b.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module b
+# 
+# Top level modules:
+# 	b
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/praticaII {C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/test_bench.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module test_bench
+# 
+# Top level modules:
+# 	test_bench
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs="+acc"  test_bench
+# vsim -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneii_ver -L rtl_work -L work -voptargs=\"+acc\" -t 1ps test_bench 
+# Loading work.test_bench
+# Loading work.processador
+# Loading work.romlpm
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.ramlpm
+# Loading work.ir
+# Loading work.fsm
+# Loading work.mux
+# Loading work.dout
+# Loading work.addr
+# Loading work.a
+# Loading work.g
+# Loading work.alu
+# Loading work.counter
+# Loading work.b
+# Loading work.registrador
+# ** Warning: (vsim-3015) C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/processador.v(29): [PCDPC] - Port size (8 or 8) does not match connection size (16) for port 'address'. The port definition is at: C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/ramlpm.v(40).
+# 
+#         Region: /test_bench/dut/MEM_DADOS
+# ** Warning: (vsim-3015) C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/processador.v(40): [PCDPC] - Port size (8 or 8) does not match connection size (16) for port 'reg_addr'. The port definition is at: C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/addr.v(1).
+# 
+#         Region: /test_bench/dut/ADDR
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all

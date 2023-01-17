@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'fsm:Control_FSM|ula[0]'
+Slack : -6.514
+TNS   : -91.171
+
+Type  : Slow Model Setup 'fsm:Control_FSM|select[0]'
+Slack : -5.803
+TNS   : -81.361
+
+Type  : Slow Model Setup 'clock'
+Slack : -4.997
+TNS   : -566.615
+
+Type  : Slow Model Setup 'fsm:Control_FSM|addr_in'
+Slack : -3.476
+TNS   : -24.995
+
+Type  : Slow Model Setup 'fsm:Control_FSM|dout_in'
+Slack : -3.429
+TNS   : -41.661
+
+Type  : Slow Model Setup 'fsm:Control_FSM|pc_inc'
+Slack : -2.385
+TNS   : -8.880
+
+Type  : Slow Model Hold 'clock'
+Slack : -2.545
+TNS   : -9.070
+
+Type  : Slow Model Hold 'fsm:Control_FSM|select[0]'
+Slack : -2.384
+TNS   : -25.505
+
+Type  : Slow Model Hold 'fsm:Control_FSM|ula[0]'
+Slack : -1.452
+TNS   : -12.904
+
+Type  : Slow Model Hold 'fsm:Control_FSM|pc_inc'
+Slack : -1.153
+TNS   : -3.406
+
+Type  : Slow Model Hold 'fsm:Control_FSM|dout_in'
+Slack : 2.193
+TNS   : 0.000
+
+Type  : Slow Model Hold 'fsm:Control_FSM|addr_in'
+Slack : 2.701
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'clock'
+Slack : -2.000
+TNS   : -349.610
+
+Type  : Slow Model Minimum Pulse Width 'fsm:Control_FSM|addr_in'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'fsm:Control_FSM|dout_in'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'fsm:Control_FSM|pc_inc'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'fsm:Control_FSM|select[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'fsm:Control_FSM|ula[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'fsm:Control_FSM|select[0]'
+Slack : -2.973
+TNS   : -41.178
+
+Type  : Fast Model Setup 'fsm:Control_FSM|ula[0]'
+Slack : -2.594
+TNS   : -34.597
+
+Type  : Fast Model Setup 'clock'
+Slack : -2.499
+TNS   : -204.020
+
+Type  : Fast Model Setup 'fsm:Control_FSM|addr_in'
+Slack : -1.249
+TNS   : -8.725
+
+Type  : Fast Model Setup 'fsm:Control_FSM|dout_in'
+Slack : -1.233
+TNS   : -13.987
+
+Type  : Fast Model Setup 'fsm:Control_FSM|pc_inc'
+Slack : -0.433
+TNS   : -1.449
+
+Type  : Fast Model Hold 'clock'
+Slack : -1.586
+TNS   : -6.423
+
+Type  : Fast Model Hold 'fsm:Control_FSM|select[0]'
+Slack : -1.398
+TNS   : -17.068
+
+Type  : Fast Model Hold 'fsm:Control_FSM|ula[0]'
+Slack : -1.052
+TNS   : -12.205
+
+Type  : Fast Model Hold 'fsm:Control_FSM|pc_inc'
+Slack : -0.881
+TNS   : -3.068
+
+Type  : Fast Model Hold 'fsm:Control_FSM|dout_in'
+Slack : 0.991
+TNS   : 0.000
+
+Type  : Fast Model Hold 'fsm:Control_FSM|addr_in'
+Slack : 1.197
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'clock'
+Slack : -2.000
+TNS   : -349.610
+
+Type  : Fast Model Minimum Pulse Width 'fsm:Control_FSM|addr_in'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'fsm:Control_FSM|dout_in'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'fsm:Control_FSM|pc_inc'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'fsm:Control_FSM|select[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'fsm:Control_FSM|ula[0]'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------

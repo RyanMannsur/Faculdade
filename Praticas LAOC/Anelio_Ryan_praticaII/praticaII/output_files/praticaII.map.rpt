@@ -1,0 +1,288 @@
+Analysis & Synthesis report for praticaII
+Fri Oct 14 23:29:41 2022
+Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis IP Cores Summary
+  6. Analysis & Synthesis Messages
+  7. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                         ;
++------------------------------------+-------------------------------------------------+
+; Analysis & Synthesis Status        ; Failed - Fri Oct 14 23:29:41 2022               ;
+; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
+; Revision Name                      ; praticaII                                       ;
+; Top-level Entity Name              ; processador                                     ;
+; Family                             ; Cyclone II                                      ;
+; Total logic elements               ; N/A until Partition Merge                       ;
+;     Total combinational functions  ; N/A until Partition Merge                       ;
+;     Dedicated logic registers      ; N/A until Partition Merge                       ;
+; Total registers                    ; N/A until Partition Merge                       ;
+; Total pins                         ; N/A until Partition Merge                       ;
+; Total virtual pins                 ; N/A until Partition Merge                       ;
+; Total memory bits                  ; N/A until Partition Merge                       ;
+; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                       ;
+; Total PLLs                         ; N/A until Partition Merge                       ;
++------------------------------------+-------------------------------------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                        ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                     ; Setting            ; Default Value      ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                     ; EP2C35F672C6       ;                    ;
+; Top-level entity name                                                      ; processador        ; praticaII          ;
+; Family name                                                                ; Cyclone II         ; Cyclone IV GX      ;
+; Use smart compilation                                                      ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                 ; On                 ;
+; Enable compact report table                                                ; Off                ; Off                ;
+; Restructure Multiplexers                                                   ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                        ; Off                ; Off                ;
+; Preserve fewer node names                                                  ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                  ; Off                ; Off                ;
+; Verilog Version                                                            ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                               ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                   ; Auto               ; Auto               ;
+; Safe State Machine                                                         ; Off                ; Off                ;
+; Extract Verilog State Machines                                             ; On                 ; On                 ;
+; Extract VHDL State Machines                                                ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                          ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                 ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                             ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                    ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                  ; On                 ; On                 ;
+; Parallel Synthesis                                                         ; On                 ; On                 ;
+; DSP Block Balancing                                                        ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                         ; On                 ; On                 ;
+; Power-Up Don't Care                                                        ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                               ; Off                ; Off                ;
+; Remove Duplicate Registers                                                 ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                       ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                     ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                      ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                  ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                       ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                        ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                             ; Off                ; Off                ;
+; Optimization Technique                                                     ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                         ; 70                 ; 70                 ;
+; Auto Carry Chains                                                          ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                       ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                      ; Off                ; Off                ;
+; Auto ROM Replacement                                                       ; On                 ; On                 ;
+; Auto RAM Replacement                                                       ; On                 ; On                 ;
+; Auto Shift Register Replacement                                            ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                            ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                              ; On                 ; On                 ;
+; Strict RAM Replacement                                                     ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                          ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                     ; Off                ; Off                ;
+; Auto RAM to Logic Cell Conversion                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                      ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                         ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                              ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                        ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                          ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                    ; Off                ; Off                ;
+; Report Parameter Settings                                                  ; On                 ; On                 ;
+; Report Source Assignments                                                  ; On                 ; On                 ;
+; Report Connectivity Checks                                                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                         ; Off                ; Off                ;
+; Synchronization Register Chain Length                                      ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                               ; Normal compilation ; Normal compilation ;
+; HDL message level                                                          ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                            ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                   ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                         ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                  ; 100                ; 100                ;
+; Clock MUX Protection                                                       ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                ; Off                ; Off                ;
+; Block Design Naming                                                        ; Auto               ; Auto               ;
+; SDC constraint protection                                                  ; Off                ; Off                ;
+; Synthesis Effort                                                           ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal               ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                       ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                         ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                     ; On                 ; On                 ;
+; Synthesis Seed                                                             ; 1                  ; 1                  ;
++----------------------------------------------------------------------------+--------------------+--------------------+
+
+
+Parallel compilation was disabled, but you have multiple processors available. Enable parallel compilation to reduce compilation time.
++-------------------------------------+
+; Parallel Compilation                ;
++----------------------------+--------+
+; Processors                 ; Number ;
++----------------------------+--------+
+; Number detected on machine ; 4      ;
+; Maximum allowed            ; 1      ;
++----------------------------+--------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis IP Cores Summary                                                                                                                             ;
++--------+--------------+---------+--------------+--------------+-----------------------------------+---------------------------------------------------------------+
+; Vendor ; IP Core Name ; Version ; Release Date ; License Type ; Entity Instance                   ; IP Include File                                               ;
++--------+--------------+---------+--------------+--------------+-----------------------------------+---------------------------------------------------------------+
+; Altera ; RAM: 1-PORT  ; 13.0    ; N/A          ; N/A          ; |processador|ramlpm:MEM_DADOS     ; C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/ramlpm.v ;
+; Altera ; ROM: 1-PORT  ; 13.0    ; N/A          ; N/A          ; |processador|romlpm:MEM_INSTRUCAO ; C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/romlpm.v ;
++--------+--------------+---------+--------------+--------------+-----------------------------------+---------------------------------------------------------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Fri Oct 14 23:29:34 2022
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off praticaII -c praticaII
+Warning (20028): Parallel compilation is not licensed and has been disabled
+Info (12021): Found 1 design units, including 1 entities, in source file fsm.v
+    Info (12023): Found entity 1: fsm
+Info (12021): Found 1 design units, including 1 entities, in source file romlpm.v
+    Info (12023): Found entity 1: romlpm
+Info (12021): Found 1 design units, including 1 entities, in source file ramlpm.v
+    Info (12023): Found entity 1: ramlpm
+Info (12021): Found 1 design units, including 1 entities, in source file ir.v
+    Info (12023): Found entity 1: ir
+Warning (12090): Entity "mux" obtained from "mux.v" instead of from Quartus II megafunction library
+Info (12021): Found 1 design units, including 1 entities, in source file mux.v
+    Info (12023): Found entity 1: mux
+Info (12021): Found 1 design units, including 1 entities, in source file a.v
+    Info (12023): Found entity 1: a
+Info (12021): Found 1 design units, including 1 entities, in source file alu.v
+    Info (12023): Found entity 1: alu
+Info (12021): Found 1 design units, including 1 entities, in source file g.v
+    Info (12023): Found entity 1: g
+Info (12021): Found 1 design units, including 1 entities, in source file addr.v
+    Info (12023): Found entity 1: addr
+Info (12021): Found 1 design units, including 1 entities, in source file dout.v
+    Info (12023): Found entity 1: dout
+Info (12021): Found 1 design units, including 1 entities, in source file counter.v
+    Info (12023): Found entity 1: counter
+Info (12021): Found 1 design units, including 1 entities, in source file registrador.v
+    Info (12023): Found entity 1: registrador
+Info (12021): Found 1 design units, including 1 entities, in source file processador.v
+    Info (12023): Found entity 1: processador
+Info (12021): Found 1 design units, including 1 entities, in source file test_bench.v
+    Info (12023): Found entity 1: test_bench
+Info (12021): Found 1 design units, including 1 entities, in source file b.v
+    Info (12023): Found entity 1: b
+Warning (10236): Verilog HDL Implicit Net warning at test_bench.v(358): created implicit net for "resetn"
+Info (12127): Elaborating entity "processador" for the top level hierarchy
+Info (12128): Elaborating entity "romlpm" for hierarchy "romlpm:MEM_INSTRUCAO"
+Info (12128): Elaborating entity "altsyncram" for hierarchy "romlpm:MEM_INSTRUCAO|altsyncram:altsyncram_component"
+Info (12130): Elaborated megafunction instantiation "romlpm:MEM_INSTRUCAO|altsyncram:altsyncram_component"
+Info (12133): Instantiated megafunction "romlpm:MEM_INSTRUCAO|altsyncram:altsyncram_component" with the following parameter:
+    Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
+    Info (12134): Parameter "init_file" = "romlpm.mif"
+    Info (12134): Parameter "intended_device_family" = "Cyclone II"
+    Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
+    Info (12134): Parameter "lpm_type" = "altsyncram"
+    Info (12134): Parameter "numwords_a" = "32"
+    Info (12134): Parameter "operation_mode" = "ROM"
+    Info (12134): Parameter "outdata_aclr_a" = "NONE"
+    Info (12134): Parameter "outdata_reg_a" = "UNREGISTERED"
+    Info (12134): Parameter "ram_block_type" = "M4K"
+    Info (12134): Parameter "widthad_a" = "5"
+    Info (12134): Parameter "width_a" = "16"
+    Info (12134): Parameter "width_byteena_a" = "1"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_em91.tdf
+    Info (12023): Found entity 1: altsyncram_em91
+Info (12128): Elaborating entity "altsyncram_em91" for hierarchy "romlpm:MEM_INSTRUCAO|altsyncram:altsyncram_component|altsyncram_em91:auto_generated"
+Info (12128): Elaborating entity "ramlpm" for hierarchy "ramlpm:MEM_DADOS"
+Info (12128): Elaborating entity "altsyncram" for hierarchy "ramlpm:MEM_DADOS|altsyncram:altsyncram_component"
+Info (12130): Elaborated megafunction instantiation "ramlpm:MEM_DADOS|altsyncram:altsyncram_component"
+Info (12133): Instantiated megafunction "ramlpm:MEM_DADOS|altsyncram:altsyncram_component" with the following parameter:
+    Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
+    Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
+    Info (12134): Parameter "init_file" = "ramlpm.mif"
+    Info (12134): Parameter "intended_device_family" = "Cyclone II"
+    Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
+    Info (12134): Parameter "lpm_type" = "altsyncram"
+    Info (12134): Parameter "numwords_a" = "256"
+    Info (12134): Parameter "operation_mode" = "SINGLE_PORT"
+    Info (12134): Parameter "outdata_aclr_a" = "NONE"
+    Info (12134): Parameter "outdata_reg_a" = "UNREGISTERED"
+    Info (12134): Parameter "power_up_uninitialized" = "FALSE"
+    Info (12134): Parameter "widthad_a" = "8"
+    Info (12134): Parameter "width_a" = "16"
+    Info (12134): Parameter "width_byteena_a" = "1"
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_6vc1.tdf
+    Info (12023): Found entity 1: altsyncram_6vc1
+Info (12128): Elaborating entity "altsyncram_6vc1" for hierarchy "ramlpm:MEM_DADOS|altsyncram:altsyncram_component|altsyncram_6vc1:auto_generated"
+Info (12128): Elaborating entity "ir" for hierarchy "ir:IR"
+Info (12128): Elaborating entity "fsm" for hierarchy "fsm:Control_FSM"
+Warning (10230): Verilog HDL assignment warning at fsm.v(166): truncated value with size 4 to match size of target (3)
+Warning (10230): Verilog HDL assignment warning at fsm.v(175): truncated value with size 4 to match size of target (3)
+Warning (10230): Verilog HDL assignment warning at fsm.v(184): truncated value with size 4 to match size of target (3)
+Warning (10230): Verilog HDL assignment warning at fsm.v(211): truncated value with size 4 to match size of target (3)
+Warning (10230): Verilog HDL assignment warning at fsm.v(220): truncated value with size 4 to match size of target (3)
+Error (10028): Can't resolve multiple constant drivers for net "select[3]" at fsm.v(45) File: C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/fsm.v Line: 45
+Error (10029): Constant driver at fsm.v(19) File: C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/fsm.v Line: 19
+Error (10028): Can't resolve multiple constant drivers for net "select[2]" at fsm.v(45) File: C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/fsm.v Line: 45
+Error (10028): Can't resolve multiple constant drivers for net "select[1]" at fsm.v(45) File: C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/fsm.v Line: 45
+Error (10028): Can't resolve multiple constant drivers for net "select[0]" at fsm.v(45) File: C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/fsm.v Line: 45
+Error (10028): Can't resolve multiple constant drivers for net "done" at fsm.v(45) File: C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/fsm.v Line: 45
+Error (10028): Can't resolve multiple constant drivers for net "ir_in" at fsm.v(45) File: C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/fsm.v Line: 45
+Error (10028): Can't resolve multiple constant drivers for net "r0_in" at fsm.v(45) File: C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/fsm.v Line: 45
+Error (10028): Can't resolve multiple constant drivers for net "r1_in" at fsm.v(45) File: C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/fsm.v Line: 45
+Error (10028): Can't resolve multiple constant drivers for net "r2_in" at fsm.v(45) File: C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/fsm.v Line: 45
+Error (10028): Can't resolve multiple constant drivers for net "r3_in" at fsm.v(45) File: C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/fsm.v Line: 45
+Error (10028): Can't resolve multiple constant drivers for net "r4_in" at fsm.v(45) File: C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/fsm.v Line: 45
+Error (10028): Can't resolve multiple constant drivers for net "r5_in" at fsm.v(45) File: C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/fsm.v Line: 45
+Error (10028): Can't resolve multiple constant drivers for net "r6_in" at fsm.v(45) File: C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/fsm.v Line: 45
+Error (10028): Can't resolve multiple constant drivers for net "pc_inc" at fsm.v(45) File: C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/fsm.v Line: 45
+Error (10028): Can't resolve multiple constant drivers for net "pc_in" at fsm.v(45) File: C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/fsm.v Line: 45
+Error (10028): Can't resolve multiple constant drivers for net "a_in" at fsm.v(45) File: C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/fsm.v Line: 45
+Error (10028): Can't resolve multiple constant drivers for net "g_in" at fsm.v(45) File: C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/fsm.v Line: 45
+Error (10028): Can't resolve multiple constant drivers for net "addr_in" at fsm.v(45) File: C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/fsm.v Line: 45
+Error (12152): Can't elaborate user hierarchy "fsm:Control_FSM" File: C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/processador.v Line: 34
+Info (144001): Generated suppressed messages file C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/output_files/praticaII.map.smsg
+Error: Quartus II 64-Bit Analysis & Synthesis was unsuccessful. 20 errors, 8 warnings
+    Error: Peak virtual memory: 4581 megabytes
+    Error: Processing ended: Fri Oct 14 23:29:42 2022
+    Error: Elapsed time: 00:00:08
+    Error: Total CPU time (on all processors): 00:00:03
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/Users/ryane/OneDrive/Documentos/quartus/praticaII/output_files/praticaII.map.smsg.
+
+

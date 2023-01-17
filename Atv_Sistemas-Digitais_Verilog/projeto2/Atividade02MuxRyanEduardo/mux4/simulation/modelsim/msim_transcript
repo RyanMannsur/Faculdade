@@ -1,0 +1,51 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do mux_41_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto2/mux4 {C:/Users/ryane/OneDrive/Documentos/atividades/projeto2/mux4/mux_41.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux_41
+# 
+# Top level modules:
+# 	mux_41
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto2/mux4 {C:/Users/ryane/OneDrive/Documentos/atividades/projeto2/mux4/mux_21.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module mux_21
+# 
+# Top level modules:
+# 	mux_21
+# 
+vsim work.mux_41
+# vsim work.mux_41 
+# Loading work.mux_41
+# Loading work.mux_21
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 2100ps -dutycycle 50 -starttime 0ps -endtime 2100ps sim:/mux_41/selA
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 1800ps -dutycycle 50 -starttime 0ps -endtime 2100ps sim:/mux_41/selB
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 1500ps -dutycycle 50 -starttime 0ps -endtime 2100ps sim:/mux_41/I0
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 1200ps -dutycycle 50 -starttime 0ps -endtime 2100ps sim:/mux_41/I1
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 1000ps -dutycycle 80 -starttime 0ps -endtime 1000ps sim:/mux_41/selA
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 2100ps -dutycycle 50 -starttime 0ps -endtime 2100ps sim:/mux_41/selA
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 1800ps -dutycycle 40 -starttime 0ps -endtime 2100ps sim:/mux_41/selB
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 1500ps -dutycycle 70 -starttime 0ps -endtime 2100ps sim:/mux_41/I0
+wave modify -driver freeze -pattern clock -initialvalue HiZ -period 1500ps -dutycycle 35 -starttime 0ps -endtime 2100ps Edit:/mux_41/I0
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 1200ps -dutycycle 30 -starttime 0ps -endtime 2100ps sim:/mux_41/I1
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 1000ps -dutycycle 50 -starttime 0ps -endtime 2100ps sim:/mux_41/I2
+wave modify -driver freeze -pattern clock -initialvalue HiZ -period 1000ps -dutycycle 20 -starttime 0ps -endtime 2100ps Edit:/mux_41/I2
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 600ps -dutycycle 50 -starttime 0ps -endtime 1200ps sim:/mux_41/I3
+wave modify -driver freeze -pattern clock -initialvalue HiZ -period 600ps -dutycycle 50 -starttime 0ps -endtime 1200ps Edit:/mux_41/I3
+wave modify -driver freeze -pattern clock -initialvalue HiZ -period 600ps -dutycycle 50 -starttime 0ps -endtime 2100ps Edit:/mux_41/I3
+wave modify -driver freeze -pattern clock -initialvalue HiZ -period 200ps -dutycycle 50 -starttime 0ps -endtime 2100ps Edit:/mux_41/I3
+wave modify -driver freeze -pattern clock -initialvalue HiZ -period 50ps -dutycycle 50 -starttime 0ps -endtime 2100ps Edit:/mux_41/I3
+wave modify -driver freeze -pattern clock -initialvalue HiZ -period 150ps -dutycycle 20 -starttime 0ps -endtime 2100ps Edit:/mux_41/I2
+wave modify -driver freeze -pattern clock -initialvalue HiZ -period 500ps -dutycycle 30 -starttime 0ps -endtime 2100ps Edit:/mux_41/I1
+wave modify -driver freeze -pattern clock -initialvalue HiZ -period 1500ps -dutycycle 50 -starttime 0ps -endtime 2100ps Edit:/mux_41/I0
+add wave -position end  sim:/mux_41/saida
+run -all

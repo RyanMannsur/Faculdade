@@ -1,0 +1,32 @@
+module control(ir, run, resetn, ir_in, r0_in, r1_in, r2_in, r3_in, r4_in, r5_in, r6_in,
+					r7_in, pc_inc, pc_in, select, a_in, g_in, addr_in, dout_in, ula, done);
+					
+	input [15:0]ir;
+	output [3:0]select;
+	input run, resetn;
+	output done, ir_in, r0_in, r1_in, r2_in, r3_in, r4_in, r5_in, r6_in,
+			r7_in, pc_inc, pc_in, a_in, g_in, addr_in, dout_in, ula;
+			
+	reg [2:0] Tstate;
+	
+	initial begin
+		[2:0] Tstate = 3'b000;
+	end
+	parameter T0 = 3'b000, T1 = 3'b001, T2 = 3'b010, T3 = 3'b011, T4 = 3'b100, T5 = 3'b101;		
+	always@(posedge clock) begin
+		case(Tstate)
+			T0: if(run) begin
+					select <= 4'b1000;
+					addr_in <= 1'b1;
+					pc_inc <= 1'b1;
+					Tstate = T1
+				end
+			T1: if(run) Tstate = T2;
+			T2: if(run) begin
+					ir_in <= 1'b1;
+					Tstate = T3;
+				end
+			T3: if(run) begin
+					case(ir[15:13])
+						3'b000: if(~(ir[12])) begin
+										

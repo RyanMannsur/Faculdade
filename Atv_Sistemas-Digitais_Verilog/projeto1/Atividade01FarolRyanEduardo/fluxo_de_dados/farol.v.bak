@@ -1,0 +1,6 @@
+module farol(F, C, P, S);
+	
+	input F, C, P;
+	
+	
+endmodule

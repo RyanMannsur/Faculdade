@@ -1,0 +1,105 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\ryane\OneDrive\Documentos\quartus\teste3\teste2\simulation\modelsim
+vcache
+IjZOQD@D59UUZGdDHbNN]M2
+VYKk_WfDoFg=kLOUL28eE92
+Z1 dC:\Users\ryane\OneDrive\Documentos\quartus\teste3\teste2\simulation\modelsim
+w1663256151
+8C:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2/cache.v
+FC:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2/cache.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2 -O0
+!i10b 1
+!s100 6oc4`bL7A]4<PS_JEmB7A3
+!s85 0
+!s108 1663256318.079000
+!s107 C:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2/cache.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2|C:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2/cache.v|
+!s101 -O0
+vdecodificador_c
+IiLm:ZlLf`RhkQdjSQ^PE>1
+V;U>SK91bHU[gnIVY8f9F23
+R1
+w1663167921
+8C:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2/decodificador_c.v
+FC:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2/decodificador_c.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 XNGMENAHPK?OJzAoJoh;g2
+!s85 0
+!s108 1663256316.443000
+!s107 C:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2/decodificador_c.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2|C:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2/decodificador_c.v|
+!s101 -O0
+vramlpm
+IeMD;bc3aQOLNfZ7m^Ji>?1
+VL]cg5Te98?ClnG>XB^j352
+R1
+w1663027391
+8C:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2/ramlpm.v
+FC:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2/ramlpm.v
+L0 39
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 ]oMW_6Yjz@FQbLck9ll7=2
+!s85 0
+!s108 1663256316.858000
+!s107 C:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2/ramlpm.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2|C:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2/ramlpm.v|
+!s101 -O0
+vtest_bench
+!i10b 1
+!s100 V0di6VH>L8ZlBJUQIXCK?1
+ISDo>`mERz8jBHZ_lWBYU>0
+VEJNK5ZO7TWUP1egUA9^TR1
+R1
+w1663098731
+8C:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2/test_bench.v
+FC:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2/test_bench.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1663256318.595000
+!s107 C:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2/test_bench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2|C:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2/test_bench.v|
+!s101 -O0
+R3
+R4
+vtoplevel
+IX<;Ag4U2`f6jm_^lQEkWB0
+VGkj7mKc7Achgia]niWZ3>1
+R1
+w1663251131
+8C:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2/toplevel.v
+FC:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2/toplevel.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!i10b 1
+!s100 234nhVN7KCI0CH4mlQH=n0
+!s85 0
+!s108 1663256317.539000
+!s107 C:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2/toplevel.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2|C:/Users/ryane/OneDrive/Documentos/quartus/teste3/teste2/toplevel.v|
+!s101 -O0

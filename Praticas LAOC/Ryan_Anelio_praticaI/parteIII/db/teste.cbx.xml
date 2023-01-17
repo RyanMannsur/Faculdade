@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="teste">
+		<CBX_INST_ENTRY INSTANCE_NAME="|toplevel|cache:comb_3|ramlpm:mem_principal|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_fne1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

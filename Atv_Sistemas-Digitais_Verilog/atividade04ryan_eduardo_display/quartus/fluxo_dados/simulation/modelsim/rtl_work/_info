@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\ryane\OneDrive\Documentos\atividades\atividade04ryan_eduardo_display\quartus\fluxo_dados\simulation\modelsim
+vdecodificador_fd
+IOgn[]JJKBVT;FKEa4YY5J2
+VGSkkDC=_CbZzS4?4VCz[g0
+Z1 dC:\Users\ryane\OneDrive\Documentos\atividades\atividade04ryan_eduardo_display\quartus\fluxo_dados\simulation\modelsim
+w1605550943
+8C:/Users/ryane/OneDrive/Documentos/atividades/atividade04ryan_eduardo_display/quartus/fluxo_dados/decodificador_fd.v
+FC:/Users/ryane/OneDrive/Documentos/atividades/atividade04ryan_eduardo_display/quartus/fluxo_dados/decodificador_fd.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 nX?jlAiZ6J3zb8n<b1H^G1
+!s85 0
+!s108 1605555049.092000
+!s107 C:/Users/ryane/OneDrive/Documentos/atividades/atividade04ryan_eduardo_display/quartus/fluxo_dados/decodificador_fd.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/atividades/atividade04ryan_eduardo_display/quartus/fluxo_dados|C:/Users/ryane/OneDrive/Documentos/atividades/atividade04ryan_eduardo_display/quartus/fluxo_dados/decodificador_fd.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/atividades/atividade04ryan_eduardo_display/quartus/fluxo_dados -O0
+vtestebench_decodificador
+!i10b 1
+!s100 ;SFUcYh?mE`>1J^^e97^>3
+I@Ucnl9V^]B4?WlVM8j90C1
+V:;?jQ5KUcb>k?ld5OTM9F2
+R1
+w1605549893
+8C:/Users/ryane/OneDrive/Documentos/atividades/atividade04ryan_eduardo_display/quartus/fluxo_dados/testebench.v
+FC:/Users/ryane/OneDrive/Documentos/atividades/atividade04ryan_eduardo_display/quartus/fluxo_dados/testebench.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1605555049.478000
+!s107 C:/Users/ryane/OneDrive/Documentos/atividades/atividade04ryan_eduardo_display/quartus/fluxo_dados/testebench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/atividades/atividade04ryan_eduardo_display/quartus/fluxo_dados|C:/Users/ryane/OneDrive/Documentos/atividades/atividade04ryan_eduardo_display/quartus/fluxo_dados/testebench.v|
+!s101 -O0
+R3
+R4

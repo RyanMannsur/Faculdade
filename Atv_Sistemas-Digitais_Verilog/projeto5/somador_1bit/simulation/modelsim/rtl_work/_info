@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\ryane\OneDrive\Documentos\atividades\projeto5\somador_1bit\simulation\modelsim
+vsomador_1bit
+I97Q`_HL<hO0I4c@bS8C?80
+V]Yez5e[aZXLl3kkoeR1Y_3
+Z1 dC:\Users\ryane\OneDrive\Documentos\atividades\projeto5\somador_1bit\simulation\modelsim
+w1605996509
+8C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_1bit/somador_1bit.v
+FC:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_1bit/somador_1bit.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 ;BeK_`h`8Rm@oQ:iVc3GL3
+!s85 0
+!s108 1605997397.439000
+!s107 C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_1bit/somador_1bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_1bit|C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_1bit/somador_1bit.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_1bit -O0
+vtestbench
+!i10b 1
+!s100 lQ>[:lzE8i>8@_zP;X==J0
+Ia0RbM8i<RgNo4h[?a;Ta;2
+VhGfW:390DM[oDMzegDH9`2
+R1
+w1605997336
+8C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_1bit/testbench.v
+FC:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_1bit/testbench.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1605997397.814000
+!s107 C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_1bit/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_1bit|C:/Users/ryane/OneDrive/Documentos/atividades/projeto5/somador_1bit/testbench.v|
+!s101 -O0
+R3
+R4

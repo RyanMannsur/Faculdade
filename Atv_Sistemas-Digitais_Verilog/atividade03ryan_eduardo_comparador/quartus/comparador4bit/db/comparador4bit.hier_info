@@ -1,0 +1,86 @@
+|comparador4bit
+A[0] => ~NO_FANOUT~
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN2
+B[0] => ~NO_FANOUT~
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN2
+igual <= comparador1bit:bloco4.port5
+maior <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+menor <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparador4bit|comparador1bit:bloco1
+enable => maior.IN1
+enable => menor.IN1
+enable => igual.IN1
+enable => igual.IN1
+A => maior.IN0
+A => igual.IN0
+A => menor.IN0
+A => igual.IN0
+B => menor.IN1
+B => igual.IN1
+B => maior.IN1
+B => igual.IN1
+maior <= maior.DB_MAX_OUTPUT_PORT_TYPE
+menor <= menor.DB_MAX_OUTPUT_PORT_TYPE
+igual <= igual.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparador4bit|comparador1bit:bloco2
+enable => maior.IN1
+enable => menor.IN1
+enable => igual.IN1
+enable => igual.IN1
+A => maior.IN0
+A => igual.IN0
+A => menor.IN0
+A => igual.IN0
+B => menor.IN1
+B => igual.IN1
+B => maior.IN1
+B => igual.IN1
+maior <= maior.DB_MAX_OUTPUT_PORT_TYPE
+menor <= menor.DB_MAX_OUTPUT_PORT_TYPE
+igual <= igual.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparador4bit|comparador1bit:bloco3
+enable => maior.IN1
+enable => menor.IN1
+enable => igual.IN1
+enable => igual.IN1
+A => maior.IN0
+A => igual.IN0
+A => menor.IN0
+A => igual.IN0
+B => menor.IN1
+B => igual.IN1
+B => maior.IN1
+B => igual.IN1
+maior <= maior.DB_MAX_OUTPUT_PORT_TYPE
+menor <= menor.DB_MAX_OUTPUT_PORT_TYPE
+igual <= igual.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|comparador4bit|comparador1bit:bloco4
+enable => maior.IN1
+enable => menor.IN1
+enable => igual.IN1
+enable => igual.IN1
+A => maior.IN0
+A => igual.IN0
+A => menor.IN0
+A => igual.IN0
+B => menor.IN1
+B => igual.IN1
+B => maior.IN1
+B => igual.IN1
+maior <= maior.DB_MAX_OUTPUT_PORT_TYPE
+menor <= menor.DB_MAX_OUTPUT_PORT_TYPE
+igual <= igual.DB_MAX_OUTPUT_PORT_TYPE
+
+

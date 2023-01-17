@@ -1,0 +1,30 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do contador_4bit_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto7/quartus/contador_4bits {C:/Users/ryane/OneDrive/Documentos/atividades/projeto7/quartus/contador_4bits/contador_4bit.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module contador_4bit
+# 
+# Top level modules:
+# 	contador_4bit
+# 
+vsim work.contador_4bit
+# vsim work.contador_4bit 
+# Loading work.contador_4bit
+wave create -driver freeze -pattern clock -initialvalue 0 -period 50ps -dutycycle 50 -starttime 0ps -endtime 1500ps sim:/contador_4bit/clock
+wave create -driver freeze -pattern clock -initialvalue 1 -period 849ps -dutycycle 96 -starttime 0ps -endtime 1500ps sim:/contador_4bit/reset
+wave modify -driver freeze -pattern clock -initialvalue St1 -period 852ps -dutycycle 98 -starttime 0ps -endtime 1500ps Edit:/contador_4bit/reset
+wave create -driver freeze -pattern clock -initialvalue 1 -period 902ps -dutycycle 98 -starttime 0ps -endtime 1500ps sim:/contador_4bit/preset
+add wave -position end  sim:/contador_4bit/Q
+run -all
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/ryane/OneDrive/Documentos/wave_contador4bits
+wave editwrite -file C:/Users/ryane/OneDrive/Documentos/wave_contador4bits -append

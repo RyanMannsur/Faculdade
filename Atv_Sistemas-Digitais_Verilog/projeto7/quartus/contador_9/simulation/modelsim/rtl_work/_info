@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\ryane\OneDrive\Documentos\atividades\projeto7\quartus\contador_9\simulation\modelsim
+vcontador_9
+!i10b 1
+!s100 HFjA_zMAY:6`gQLTAZz>L3
+Ihk1eKfU0229Mfi7Q`nd5=0
+Vm]fG_62dGf78d``Q1D_X82
+Z1 dC:\Users\ryane\OneDrive\Documentos\atividades\projeto7\quartus\contador_9\simulation\modelsim
+w1607033575
+8C:/Users/ryane/OneDrive/Documentos/atividades/projeto7/quartus/contador_9/contador_9.v
+FC:/Users/ryane/OneDrive/Documentos/atividades/projeto7/quartus/contador_9/contador_9.v
+L0 1
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1607033654.695000
+!s107 C:/Users/ryane/OneDrive/Documentos/atividades/projeto7/quartus/contador_9/contador_9.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto7/quartus/contador_9|C:/Users/ryane/OneDrive/Documentos/atividades/projeto7/quartus/contador_9/contador_9.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/atividades/projeto7/quartus/contador_9 -O0

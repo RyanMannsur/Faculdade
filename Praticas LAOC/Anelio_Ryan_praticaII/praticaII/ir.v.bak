@@ -1,0 +1,10 @@
+module ir(din,ir_in, clock, reg_ir); //ir_in run.
+	
+	input [15:0] din;
+	input ir_in, clock;
+	output [15:0] reg_ir;
+
+	always(posedge clock) begin
+		if(ir_in)
+			reg_ir <= din;
+	end;

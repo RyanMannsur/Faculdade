@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\ryane\OneDrive\Documentos\atividades\atividade04ryan_eduardo_display\quartus\comportamental\simulation\modelsim
+vdecodificador_c
+I4YIJjCRGXLLzV9R^]QjPc2
+VfR6@_^l@h8=g2ODWz`X?60
+Z1 dC:\Users\ryane\OneDrive\Documentos\atividades\atividade04ryan_eduardo_display\quartus\comportamental\simulation\modelsim
+w1605555130
+8C:/Users/ryane/OneDrive/Documentos/atividades/atividade04ryan_eduardo_display/quartus/comportamental/decodificador_c.v
+FC:/Users/ryane/OneDrive/Documentos/atividades/atividade04ryan_eduardo_display/quartus/comportamental/decodificador_c.v
+L0 1
+Z2 OV;L;10.1d;51
+r1
+31
+Z3 o-vlog01compat -work work -O0
+!i10b 1
+!s100 6ST>`k326ZBc8M43?Vn[^1
+!s85 0
+!s108 1605555786.965000
+!s107 C:/Users/ryane/OneDrive/Documentos/atividades/atividade04ryan_eduardo_display/quartus/comportamental/decodificador_c.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/atividades/atividade04ryan_eduardo_display/quartus/comportamental|C:/Users/ryane/OneDrive/Documentos/atividades/atividade04ryan_eduardo_display/quartus/comportamental/decodificador_c.v|
+!s101 -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/ryane/OneDrive/Documentos/atividades/atividade04ryan_eduardo_display/quartus/comportamental -O0
+vtestebench_c
+!i10b 1
+!s100 Lj2I?QSoGY8D^FZDUic1V0
+IP]dO@EeMCL5kM[E<4:[>j0
+Vm5zmdX681i2zh]?4W4TU@0
+R1
+w1605555679
+8C:/Users/ryane/OneDrive/Documentos/atividades/atividade04ryan_eduardo_display/quartus/comportamental/testebench_c.v
+FC:/Users/ryane/OneDrive/Documentos/atividades/atividade04ryan_eduardo_display/quartus/comportamental/testebench_c.v
+L0 1
+R2
+r1
+!s85 0
+31
+!s108 1605555787.165000
+!s107 C:/Users/ryane/OneDrive/Documentos/atividades/atividade04ryan_eduardo_display/quartus/comportamental/testebench_c.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/ryane/OneDrive/Documentos/atividades/atividade04ryan_eduardo_display/quartus/comportamental|C:/Users/ryane/OneDrive/Documentos/atividades/atividade04ryan_eduardo_display/quartus/comportamental/testebench_c.v|
+!s101 -O0
+R3
+R4

@@ -1,0 +1,7 @@
+module registrador(buswires, r_in, data_r)
+
+	input [15:0] buswires;
+	input r_in;
+	output [15:0] data_r;
+	
+	always@(posedge clock)
