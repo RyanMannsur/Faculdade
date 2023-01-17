@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1568932545 source:c:\users\ryane\onedrive\documentos\projetos em c\lista de repeticao\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

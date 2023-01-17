@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1574893097 source:c:\users\ryane\onedrive\documentos\projetos em c\listas natalia\calendario\main.c
+	<stdio.h>
+	<string.h>
+

@@ -1,0 +1,26 @@
+Capa(capaIphone5s, 80).
+smartphone(nokiaLumia,1700).
+smartphone(iphone4s,1300).
+smartphone(galaxyS3,1400).
+smartphone(iphone5s,2400).
+smartphone(galaxyS4,2300).
+smartphone(blackBerry,1800).
+smartphone(iphone4,1000).
+
+cliente(01,[gabriel,21,estudante,[iphone4s,galaxyS3]]).
+cliente(02,[bruna,30,medico,[iphone5s,capaIphone5s]]).
+cliente(03,[rafaela,25,arquiteto,[iphone5s,galaxyS4]]).
+cliente(04,[victor,39,advogado,[blackBerryZ10,1800]]).
+cliente(05,[beatriz,18,estudante,[iphone4s,iphone4]]).
+cliente(06,[joao,28,engenheiro,[nokiaLumia]]).
+estudante(gabriel).
+estudante(beatriz).
+listar_clientes(L) :-  cliente(_,[L|_]).
+listar_dados_cliente(C,D) :- cliente(C,D).
+listar_smartphone(L) :- smartphone(L,_).
+listar_estudantes(L) :-  estudante(L).
+soma(X,Y,Z) :- Z is X+Y.
+preco_medio(X) :- smartphone(nokiaLumia,A), smartphone(iphone4s,B),
+    smartphone(galaxyS3,C), smartphone(iphone5s,D),smartphone(galaxyS4,E),
+    smartphone(blackBerry,F), smartphone(iphone4,G), X is A+B+C+D+E+F+G/7.
+

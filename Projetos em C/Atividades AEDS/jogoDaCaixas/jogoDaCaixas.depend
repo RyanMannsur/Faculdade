@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1612469337 source:c:\users\ryane\onedrive\documentos\projetos em c\jogodacaixas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+

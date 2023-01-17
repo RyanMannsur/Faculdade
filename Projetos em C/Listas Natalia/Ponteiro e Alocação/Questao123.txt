@@ -1,0 +1,3 @@
+Ponteiro ‚ uma variavel que aponta para posi‡Æo de memoria de outra, deve ser declarada usando asteristico(*).
+o e comercial (&).
+Soma a + b usando ponteiro e coloca no c.

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1577556504 source:c:\users\ryane\onedrive\documentos\projetos em c\megasena\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+

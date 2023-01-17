@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1652232510 source:c:\users\ryane\onedrive\documentos\programação\projetos em c\listas natalia\opengl\trabalho_calculoiv\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
